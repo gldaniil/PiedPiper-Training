@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #007765;
+}
+
+nav {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto 0 auto;
+    padding: 20px 55px 20px 55px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+main {
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto 0 auto;
+}
+
+aside img {
+    min-width: 132px;
+    min-height: 92px;
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+}
+
+h1 {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+}
+
+.slogan {
+    background-size: cover;
+    background-position: center;
+    display: table;
+    width: 100%;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content {
+    padding: 48px 55px 55px 55px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.row {
+    display: inline-block;
+}
+
+.row > img {
+    max-width: 115px;
+    max-height: auto;
+    float: left;
+    margin-right: 48px;
+}
+
+.row > p {
+    margin: 0;
+}
+
+.bg-1 {
+    background-image: url('../img/PiperNetIsHere.png');
+    height: 403px;
+}
+
+.bg-1 p {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    color: #fff;
+}
+
+.bg-2 {
+    background-image: url('../img/InThisTogether.png');
+    height: 483px;
+}
+
+.bg-2 p {
+    padding: 0 160px;
+    color: #fff;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 56px;
+}
