@@ -93,13 +93,6 @@ p {
     text-align: justify;
 }
 
-.introducing img {
-    max-width: 115px;
-    max-height: auto;
-    float: left;
-    margin-right: 48px;
-}
-
 .bg-1 {
     background-image: url('../img/PiperNetIsHere.png');
     height: 403px;
@@ -135,6 +128,13 @@ p {
 
 .introducing {
     background-color: #FFFFFF;
+}
+
+.introducing img {
+    max-width: 115px;
+    max-height: auto;
+    float: left;
+    margin-right: 48px;
 }
 
 .problem,
