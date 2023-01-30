@@ -93,19 +93,11 @@ p {
     text-align: justify;
 }
 
-.row {
-    display: inline-block;
-}
-
-.row > img {
+.introducing img {
     max-width: 115px;
     max-height: auto;
     float: left;
     margin-right: 48px;
-}
-
-.row > p {
-    margin: 0;
 }
 
 .bg-1 {
