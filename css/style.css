@@ -48,13 +48,15 @@ main {
 }
 
 aside img {
-    min-width: 132px;
-    min-height: 92px;
+    min-width: 92px;
+    min-height: 52px;
     position: fixed;
     z-index: 1;
     bottom: 20px;
     right: 20px;
-    border-radius: 100%;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #a47ee6, #19dbd2);
 }
 
 h1 {
@@ -84,7 +86,7 @@ p {
 }
 
 .content {
-    padding: 48px 55px 55px 55px;
+    padding: 48px 55px 40px 55px;
 }
 
 .content p {
@@ -129,4 +131,69 @@ p {
     font-style: italic;
     font-size: 48px;
     line-height: 56px;
+}
+.problem, 
+.introducing,
+.team {
+    margin-top: -80px;
+    padding-top: 80px;
+    -webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+.introducing {
+    background-color: #FFFFFF;
+}
+
+.problem,
+.team { 
+    background-color: #EEEEEE;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.our-team__element p {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 12px 0;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.our-team__element h3 {
+    color: #007765;
+    margin: 6px 0 0 0;
+    font-size: 24px;
+}
+
+.our-team__element {
+    display: inline-block;
+    width: 350px;
+    height: 280px;
+}
+
+figure {
+    display: inline-block;
+    margin: 0 70px 0 70px;
+}
+
+figure > img {
+    width: 168px;
+}
+
+footer {
+    background-color: #333333;
+}
+
+footer .container p {
+    margin: 0;
+    padding: 48px 340px 64px 340px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
 }
