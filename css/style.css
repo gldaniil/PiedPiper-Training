@@ -1,20 +1,21 @@
+/* Подключение нового шрифта */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     background-color: #E5E5E5;
     font-family: 'Roboto', sans-serif;
 }
-
+/* ------------ Шапка ------------ */
 header {
-    position: -webkit-sticky;
-    position: sticky;
+    position: sticky; /* Липкое позиционирование */
+    position: -webkit-sticky; 
     top: 0;
     width: 100%;
     background-color: #007765;
 }
-
+/* ------------ Навигация ------------ */
 nav {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Изменение расчёта ширины блока */
     max-width: 1219px;
     margin: 0 auto 0 auto;
     padding: 20px 55px 20px 55px;
@@ -39,24 +40,12 @@ ul > li > a {
     font-size: 24px;
     font-weight: 500;
 }
-
+/* ------------ Основное содержимое ------------ */
 main {
     background-color: #EEEEEE;
     box-sizing: border-box;
     max-width: 1219px;
     margin: 0 auto 0 auto;
-}
-
-aside img {
-    min-width: 92px;
-    min-height: 52px;
-    position: fixed;
-    z-index: 1;
-    bottom: 20px;
-    right: 20px;
-    border: 5px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to right, #a47ee6, #19dbd2);
 }
 
 h1 {
@@ -71,7 +60,7 @@ h1 {
 p {
     font-size: 32px;
 }
-
+/* ------------ Разделы ------------ */
 .slogan {
     background-size: cover;
     background-position: center;
@@ -141,7 +130,7 @@ p {
 .team { 
     background-color: #EEEEEE;
 }
-
+/* ------------ Команда ------------ */
 .our-team {
     text-align: center;
 }
@@ -176,7 +165,19 @@ figure {
 figure > img {
     width: 168px;
 }
-
+/* ------------ Figma ------------ */
+aside img {
+    min-width: 92px;
+    min-height: 52px;
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #a47ee6, #19dbd2);
+}
+/* ------------ Подвал ------------ */
 footer {
     background-color: #333333;
 }
